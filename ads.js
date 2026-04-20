@@ -105,9 +105,9 @@
     showLoader();
     setTimeout(function () {
       hideLoader();
-    //   if (rewardedSlot) {
-    //     googletag.display(rewardedSlot);
-    //   }
+      if (rewardedSlot) {
+        googletag.display(rewardedSlot);
+      }
     }, 1000);
 
   });
